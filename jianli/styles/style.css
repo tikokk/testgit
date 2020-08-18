@@ -1,0 +1,40 @@
+
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 16px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; }
+html {    background-color: #3c96ca;}
+body {
+  width: 800px;/*网页主体宽度*/
+  margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+  background-color: #FF9500;/*内容区的背景颜色*/
+  padding: 0 20px 20px 20px;/*简写属性在一个声明中设置所有内边距属性。上右下左*/
+  border: 5px solid black;/*边框宽度,样式,颜色*/
+}
+h1 {
+  font-size: 400%; 
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;/*文本阴影 水平/垂直/模糊距离/颜色*/
+  text-align:center; /*文本对齐方式*/
+  opacity:1;/*字体透明度0全透明，1不透明*/
+  text-indent:0px;/*首行缩进*/
+}
+table {
+  margin: 0 auto;
+}
+td {text-align:center}/*居中*/
+#1{margin: 0 auto}
+dt {font-size :20px;
+  
+}
+/*font-weight:bold/lighter/100~900;/*字体粗细*/
+/*text-decoration:underline/line-through/overline/none;/*文本修饰属性*/
+/*overflow:auto/scroll/hidden;/*文本超出范围显示方式，自动显示滚动条/始终显示滚动条/超出文本隐藏*/
+/*text-overflow:clip/ellipsis;/*多余文字显示方式，裁剪/使用...代替*/
+/*white-space:normal/nowrap/pre;/*元素内空白符，忽略/行末不断行/保留*/
+/*-webkit-text-stroke:2px yellow;/*文字描边*/
+  /*width:60000px;/*width 属性设置元素的宽度。*/
+ /* height:1pxheight 属性设置元素的高度*/
