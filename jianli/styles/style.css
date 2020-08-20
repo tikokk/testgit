@@ -22,14 +22,26 @@ h1 {
   opacity:1;/*字体透明度0全透明，1不透明*/
   text-indent:0px;/*首行缩进*/
 }
+p{
+  text-indent:50px;
+  line-height:1.5rem;
+  text-shadow:10px 10px 10px #070606
+
+}
+
 table {
   margin: 0 auto;
 }
 td {text-align:center}/*居中*/
-#1{margin: 0 auto}
+#111{margin: 0 auto}
 dt {font-size :20px;
   
 }
+.1{
+  text-decoration: line-through
+}
+
+
 /*font-weight:bold/lighter/100~900;/*字体粗细*/
 /*text-decoration:underline/line-through/overline/none;/*文本修饰属性*/
 /*overflow:auto/scroll/hidden;/*文本超出范围显示方式，自动显示滚动条/始终显示滚动条/超出文本隐藏*/
