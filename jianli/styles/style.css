@@ -24,8 +24,9 @@ h1 {
 }
 p{
   text-indent:50px;
-  line-height:1.5rem;
-  text-shadow:10px 10px 10px #070606
+  line-height:2.5rem;
+  text-shadow:10px 10px 10px #070606;
+ /* text-decoration: line-through;*/
 
 }
 
