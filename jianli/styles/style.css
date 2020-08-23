@@ -3,16 +3,27 @@ html {
   /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
   font-size: 16px; 
   /* Google fonts 输出的 CSS */
-  font-family: 'Open Sans', sans-serif; }
-html {    background-color: #3c96ca;}
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #3c96ca;}
+
 body {
+  background-attachment:fixed;
+  background-image: url("/images/222.png") padding 20px;/*背景图片路径和内边距*/
+  background-position: 20% 30%;/*定位图片位置像素定位和百分比定位*/
+  background-repeat: repeat-y;/*y方向平铺*/
+
+
   width: 800px;/*网页主体宽度*/
+  height: 1350px;
   margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
   background-color: #FF9500;/*内容区的背景颜色*/
   padding: 0 20px 20px 20px;/*简写属性在一个声明中设置所有内边距属性。上右下左*/
   border: 5px solid black;/*边框宽度,样式,颜色*/
+  
 }
 h1 {
+
+
   font-size: 400%; 
   margin: 0;
   padding: 20px 0;    
@@ -21,28 +32,78 @@ h1 {
   text-align:center; /*文本对齐方式*/
   opacity:1;/*字体透明度0全透明，1不透明*/
   text-indent:0px;/*首行缩进*/
+ 
+ /*background-color: #11a325;/*背景颜色*/
 }
 p{
   text-indent:50px;
   line-height:2.5rem;
   text-shadow:10px 10px 10px #070606;
- /* text-decoration: line-through;*/
+ 
+
+ 
 
 }
 
 table {
   margin: 0 auto;
+
 }
-td {text-align:center}/*居中*/
-#111{margin: 0 auto}
-dt {font-size :20px;
+
+
+
+dt,tr,td{
+  font-size :20px;
+  text-align:center;/*居中*/
+ border-style: outset;/*边框样式
+/*border-width:5px;/*边框宽度*/
+/*border-color: blue;/*边框颜色*/
+ /*border-color: transparent;/*边框透明*/
   
 }
 .ccc{
-  text-decoration: line-through
+  text-decoration: line-through;
+}
+#aaa{ 
+  background-attachment:fixed;/*属性设置背景图像是否固定或者随着页面的其余部分滚动。*/
+  background-image: url("/images/222.png") ;/*背景图片路径和内边距*/
+  background-position: 20% 30%;/*定位图片位置像素定位和百分比定位*/
+  background-repeat: repeat-y;/*y方向平铺*/
+  background-color: #11a325;/*背景颜色*/
+ 
+ /* border:5px solid red;/*宽度样式颜色*/
+  /*border-color: transparent;透明边框*/
+  border-style: solid;
+  border-color: #bb4213;
+  border-top-color: mediumblue;
+  border-width: 5px 5px 5px 5px
 }
 
+/*#ddd::after {
+  /*content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 5px solid black;
+  /*border-color: transparent;*/
+ /* background-image: url("/images/222.png");
+}   */
 
+ul,li{
+  
+  /*list-style: square inside url('/images/111.jpg');列表标志类型位置图像 */
+  list-style-type: square;
+  list-style-image: url('/images/222.jpg');
+  list-style-position: inside;
+}
+.ddd {
+  text-shadow:initial;
+}
+a:link {color:#275783;}		/* 未被访问的链接 */
+a:visited {color:#9318ac;}	/* 已被访问的链接 */
+a:hover {color:#f8e806;}	/* 鼠标指针移动到链接上 */
+a:active {color:#388321;}	/* 正在被点击的链接 */
 /*font-weight:bold/lighter/100~900;/*字体粗细*/
 /*text-decoration:underline/line-through/overline/none;/*文本修饰属性*/
 /*overflow:auto/scroll/hidden;/*文本超出范围显示方式，自动显示滚动条/始终显示滚动条/超出文本隐藏*/
