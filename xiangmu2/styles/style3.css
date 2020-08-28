@@ -1,0 +1,110 @@
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 16px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;}
+  
+  body {
+   
+  
+    width: 90%;
+    max-width: 730px;
+    height: auto;
+    margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+    border: 1px solid black;/*边框宽度,样式,颜色*/
+  }
+  
+  .clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+  }
+  .clearfix{
+   
+    border: 3px solid rgb(19, 209, 13);/*边框宽度,样式,颜色*/
+  zoom:1;    /* IE/7/6*/
+  }
+
+  h1{
+    
+    box-sizing: border-box;
+    text-align:left;
+    background-color: rgb(75, 71, 71);
+    height: auto;
+    margin: 0 auto;
+    ;
+  }
+  h2{
+    box-sizing: border-box;
+    text-align:center;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(11, 51, 126);
+    border: 1px solid black;/*边框宽度,样式,颜色*/
+  }
+
+  .box1{ float: right;/*左浮动*/
+    width: 80%;}
+
+.box9{
+  box-sizing: border-box;
+     float: left;/*左浮动*/
+     width: 20%;
+     line-height:100px;
+      text-align:center;
+      }
+.aaa{
+padding: 0px;
+}
+              
+ p{ padding: 0px;
+height: 0px;
+width: 0;
+margin: 0 auto;
+
+}
+dt,dd {
+
+  display: inline-block;
+  background-color: blueviolet;
+}
+  
+  /*p:nth-of-type(1){
+    float: left;
+    width: 25%;
+    background-color: rgb(46, 101, 138);
+  }
+  p:nth-of-type(2){
+    float: left;
+    width: 39%;
+    background-color: rgb(128, 24, 41)
+  }
+  p:nth-of-type(3){
+    float: right;
+    width: 35%;
+    background-color: rgb(179, 88, 15)
+  }
+  
+  
+  p:nth-of-type(4){
+    float: left;
+    width: 30%;
+  }
+  p:nth-of-type(5){
+    float: left;
+    width: 40%;
+  }
+  p:nth-of-type(6){
+    float: right;
+    width: 29%;}
+  */
+    dt{font-weight:bold;
+      font-size: 16px}
+    dd{
+      margin:0}
+  
+  

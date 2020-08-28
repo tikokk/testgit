@@ -1,0 +1,58 @@
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 16px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;}
+  
+  body {
+   
+  
+    width: 90%;
+    max-width: 730px;
+    height: auto;
+    margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+    border: 1px solid black;/*边框宽度,样式,颜色*/
+  }
+  
+   
+  .clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+  }
+  .clearfix{
+   
+  
+  zoom:1;    /* IE/7/6*/
+  }
+  h1:nth-of-type(1){
+    float: left;/*左浮动*/
+    width: 20%;
+    height: 800px;
+  }
+  h1{
+    box-sizing: border-box;
+    text-align:center;
+    background-color: rgb(76, 172, 236);
+    ;
+  }
+  h2{text-align: left;}
+  .box10{float: right;
+    width: 80%;
+    height: auto;}
+ 
+
+ 
+    dt{list-style-position: inside  ;
+      list-style-type: none;
+    }
+    dt{font-weight:bold;
+      font-size: 16px}
+    dd{font-size: 16px;
+      margin:0}
+  
+  
