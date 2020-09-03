@@ -1,0 +1,169 @@
+
+html {
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 16px; 
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;}
+    * {
+      box-sizing: border-box;
+    }
+  
+  body {
+    position: relative;
+    width: 960px;
+    height: auto;
+    margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+    /*  border: 1px solid black;/*边框宽度,样式,颜色*/
+  }
+  
+  .clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    height: 0;
+  }
+  .clearfix{
+   
+    border: 3px solid rgb(19, 209, 13);/*边框宽度,样式,颜色*/
+  zoom:1;    /* IE/7/6*/
+  }
+header{
+  background-color: rgb(34, 31, 31);
+  width: 960px;
+  height: 50px;
+
+  position: relative;
+  color: white;
+}
+
+.logo{
+  display: inline-block;
+ font-size :18px; 
+ margin-top :5px;
+ position: absolute;
+ left: 80px;
+    }
+ .dh{
+      display: inline-block;
+      font-size: 10px;
+      position: absolute;
+      margin-top: 5px;
+      right: 30px;
+    }
+    .dh a{
+      color: white;
+    }   
+ .banner{ position:relative;
+  display:block;
+   width: 960px;
+   height:250px;
+   background-color: rgb(99, 167, 44);
+ 
+ 
+
+
+ }
+ .banner3{
+  position: absolute;
+ bottom: 15px;
+  right: 100px;
+
+
+ }
+ .banner1{
+   
+  display: inline-block;
+  width: 20px;
+  height:30px;
+  line-height: 30px;
+  background-color: white;
+  opacity:0.5; 
+  text-align:center;
+  
+  border:1px solid black;
+ }
+ p.banner1:hover{
+padding-top: 10px;  
+height: 40px;
+
+   opacity:1
+ }
+
+.bujv{
+  width: 960px;
+  height: 500px;
+  margin: 10px auto;
+
+}
+ul {
+  border: 2px solid #464141;
+  overflow: hidden;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+
+}
+li {
+  float: left;
+  list-style-type: none;
+  width: 150px;
+}
+li a {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  line-height: 50px;
+  background: white;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+.bujv li a:focus, .bujv li a:hover {
+  background-color: #b60000;
+  color: white;
+  
+}
+
+.bujv li a.active {
+ 
+  color: rgb(0, 0, 0);
+}
+
+.flex{
+  box-sizing: border-box;
+  display:flex ;
+
+  flex-flow: row wrap;
+  width: 960px;
+ 
+  margin: 10px auto;
+
+
+}
+.sanlie{
+  width: 33%;
+  margin: 5px;
+  padding: 80px 110px;
+  border: 1px solid rgb(65, 63, 63);
+
+  flex: 10 300px;
+}
+.silie{
+  width: 23%;
+  margin: 5px;
+  padding: 80px;
+  border: 1px solid rgb(54, 51, 51);
+  flex: 3  130px;
+  
+}
+footer{
+  background-color: rgb(87, 80, 80);
+  margin: 0 auto;
+  text-align:center;
+  height:100px;
+  padding-top: 30px;
+}
+
