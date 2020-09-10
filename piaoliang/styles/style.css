@@ -1,0 +1,354 @@
+
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif; 
+  font-size:16px;
+}
+body {
+  /*background-attachment:fixed;
+  background-image: url("/images/222.png") padding 20px;/*背景图片路径和内边距*/
+ /* background-position: 20% 30%;/*定位图片位置像素定位和百分比定位*/
+ /* background-repeat: repeat-y;/*y方向平铺*/
+
+
+  width: 1600px;/*网页主体宽度*/
+  margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+}
+.bt1{
+  font-size: 42px;
+  text-align:center;
+}
+.xbt{
+  font-size: 20px;
+}
+.clearfix:after{
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix{
+ 
+  /*border: 3px solid rgb(19, 209, 13);/*边框宽度,样式,颜色*/
+zoom:1;    /* IE/7/6*/
+}
+.a{
+  margin: 0 auto;
+  width:1600px;
+  height:990px;
+  position: relative;
+  background: url(../images/11.png) rgba(0, 0, 0, 0.5) no-repeat center center;
+  background-blend-mode: multiply;
+  color:white;
+}
+.a1{
+  margin: 0 auto;
+  margin-top:120px;
+  width:970px;
+  height:250px;
+  border:1px solid rgb(85, 78, 78);
+  text-align:center;
+} 
+.a11{
+  margin-top:40px;
+
+}
+.a12{
+  box-sizing: border-box;
+  width:290px;
+  height:50px;
+  border: 1px solid rgb(104, 99, 99);
+  display:inline-block;
+  background-color:transparent;
+  color:white;
+}
+.a13{
+  box-sizing: border-box;
+  width:126px;
+  height:50px;
+  border: 1px solid rgb(104, 99, 99);
+  display:inline-block;
+  background:white;
+}
+.b{
+  position: relative;
+  width:1600px;
+  height:710px;
+  display:block;
+  border: 1px solid rgb(104, 99, 99);
+}
+.b1{
+    float: left;
+    margin-right:30px;
+    overflow: hidden;
+    padding-top:30px;
+}
+.b2{
+
+  overflow: hidden;
+  text-align:left;
+}
+.b3{
+  display: inline-block;
+  margin:0 40px;
+  width: 500px;
+  box-sizing: border-box;
+  text-align:left;
+}
+.c{position: relative;
+  margin-top: 0px;
+  padding-top: 0.1px;
+  height:800px;
+  background: url(../images/12.png) rgba(0, 0, 0, 0.5) no-repeat center center;
+  background-blend-mode: multiply;
+}
+.c1{
+padding-top: 200px;
+ margin-left:220px;
+ color: white;
+ position: relative;
+}
+.c2{
+  font-size: 42px;
+}
+.c4{
+  background-color:  white;
+  color: black;
+}
+.c5{
+  display: inline-block;
+  width: 240px;
+  height: 60px;
+  color: white;
+  border: 1px solid rgb(104, 99, 99);
+}
+
+#A1{
+  position: absolute;
+  top: 550px;
+  left:220px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid rgb(104, 99, 99);
+  width: 240px;
+  height: 60px;
+  text-align:center;
+  line-height:60px;
+}
+#A2{
+  position: absolute;
+  top: 550px;
+  left:520px;
+  width: 240px;
+  height: 60px;
+  display: inline-block;
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgb(104, 99, 99);
+  text-align:center;
+  line-height:60px;
+}
+.c13{
+  color: white;
+  position: absolute;
+  top: 200px;
+  left:350px;
+ }
+.c12{
+ color: white;
+ position: absolute;
+ top: 200px;
+ left:350px;
+ display: none;
+ 
+}
+a:active {
+  background-color: #b60000;
+  color: white;
+}
+ a:focus,a:hover {
+  background-color: #b60000;
+  color: white;
+}
+
+.d{
+  height:580px;
+}
+.d1{
+  text-align:center;
+  margin:0 auto;
+  height:580px;
+  border-bottom: 1px solid rgb(224, 221, 221);
+}
+.d2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 10px auto;
+
+}
+.d11{
+  width:268px;
+}
+.e{
+  height:1000px;
+  border-bottom: 1px solid rgb(224, 221, 221);
+  
+}
+.e1{
+  margin: 0px auto;
+  margin-top:100px;
+  
+  width:980px;
+  height:780px;
+  /*border: 2px solid black;*/
+}
+.e2{
+  float: left;
+  margin-right:80px;
+}
+.e3{
+  float: right;
+  margin-left:80px;
+  padding-top:80px;
+}
+.f{
+  height:1085px;
+  border-bottom: 1px solid rgb(224, 221, 221);
+}
+.f1{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+.f2{
+  padding: 10px;
+}
+.f3:hover+.f4{
+  display: block;
+}
+.f4:hover,.f3:hover{
+  cursor: pointer;
+}
+
+.f4{
+  cursor: pointer;
+  display: none;
+  color:white;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  left: 10px;
+  width:470px;
+  height:340px;
+  background-color: rgba(0, 0, 0, 0.5);
+ /* opacity: 0.3;文字也会透明*/
+}
+.f5{
+  display:inline-block;
+  margin: 20px;
+}
+.g{
+  height:700px;
+  position: relative;
+}
+.g1{
+  color: black;
+  position: relative;
+  top:71px;
+  left: 318px;
+  width:472px;
+  height:560px;
+  border: 1px solid rgb(224, 221, 221);
+  border-radius:10px;/*圆角*/
+}
+.g2{
+  padding-top: 50px;
+  font-size: 20px;
+}
+.g3{
+  box-sizing: border-box;
+  width:370px;
+  height:50px;
+  border: 1px solid rgb(104, 99, 99);
+
+  
+  align-items: center;
+  margin:15px auto;
+}
+.g4{
+  box-sizing: border-box;
+  width:370px;
+  height:145px;
+  border: 1px solid rgb(104, 99, 99);
+  background-color:transparent;
+
+}
+.g5{
+  box-sizing: border-box;
+  width:370px;
+  height:50px;
+  background-color:black;
+  margin-top: 50px;
+  color: white;
+  border: 5px solid rgb(255, 255, 255);
+
+}
+
+.g6{
+  box-sizing: border-box;
+  position: absolute;
+  top:156px;
+  left: 915px;
+  width:375px;
+  height:375px;
+}
+.g7{
+  font-size: 20px;
+}
+.g8{
+  float: left;
+  margin: 5px;
+  margin-right: 15px;
+}
+
+.h{
+  height:410px;
+  background-color:black ;
+}
+h1{
+  text-align:center;
+  font-size:4rem;
+  padding-top: 250px;
+  margin-bottom:50px;
+  color:white;
+
+}
+.jz{
+  text-align:center;
+}
+.jz1{
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
