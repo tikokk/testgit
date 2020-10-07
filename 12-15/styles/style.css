@@ -1,0 +1,157 @@
+
+html {
+  font-family: 'Open Sans', sans-serif; 
+  font-size:16px;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto; /*简写属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值*/
+  height: 100%;
+  background-color:rgb(47, 162, 182);
+  min-height: 1020px;
+  min-width:1020px ;
+}
+.bt1{
+  font-size: 42px;
+  text-align:center;
+}
+.xbt{
+  font-size: 20px;
+}
+.clearfix:after{
+  content: ".";
+  clear: both;
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  height: 0;
+}
+.clearfix{
+ 
+  /*border: 3px solid rgb(19, 209, 13);/*边框宽度,样式,颜色*/
+zoom:1;    /* IE/7/6*/
+}
+.jz{
+  text-align:center;
+}
+.jz1{
+  margin:0 auto;
+}
+
+.left0{
+  margin:0 auto;
+  height: 100%;
+}
+.taxian{
+  overflow: hidden;
+  height: 100%;
+ float: left;
+}
+.left{
+  min-height: 1020px;
+    height: 100%;
+  float:left ;
+  text-align:center;
+  background-color:rgb(29, 37, 49);
+  width: 100px;
+
+  
+}
+.a1{
+  margin-top:50px;
+}
+.a11{
+  position: fixed;  
+  top: 30px;
+  left:30px;
+}
+.a12{
+  position: fixed;  
+  top: 130px;
+  left:30px;
+}
+.a13{
+  position: fixed;  
+  top: 230px;
+  left:30px;
+}
+
+.a14{
+  position: fixed;  
+  top: 330px;
+  left:30px;
+}
+.a15{
+  position: fixed;  
+  bottom: 30px;
+  left:30px;
+}
+
+.left2{
+  min-height: 1020px;
+  height: 100%;
+  float:left ;
+  background-color: rgb(34,44,60);
+  width: 250px;
+}
+.b11{
+  position: fixed;  
+  bottom: 30px;
+  left:140px;
+}
+
+.left3{  height: 100%;
+  margin-left:350px;
+  width: 100%-350px;
+  background-color:rgb(181, 184, 32);
+  overflow: hidden;
+}
+.head{
+  margin-top: 0px;
+  padding-top: 0px;
+  position: sticky;
+ top:0px;
+  right:0px;
+  height: 150px;
+  width: 100%-400px;
+background-color:white;
+}
+.c11{
+  margin: 0;
+  position: fixed;  
+ top:30px;
+  right: 200px;
+}
+.c12{
+  margin: 0;
+  position: fixed;  
+ top:30px;
+  right: 80px;
+}
+.left4{
+  height: 100%;
+  float:left;
+  width: 400px;
+  background-color:rgb(30, 27, 182);
+}
+.left5{
+  height: 100%;
+  margin-left:400px;
+  width: 100%-400px;
+  background-color:rgb(20, 207, 35);}
+
+
+
+
+
+
+
+
+
+
+
